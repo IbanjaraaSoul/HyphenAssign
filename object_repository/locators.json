@@ -1,0 +1,25 @@
+{
+    "testSiteURL": "https://app.gethyphen.com/signin",
+
+    
+    "loginPage": {
+        "username": "ID:inputGroupField",
+        "password": "XPATH: //input[@placeholder='Verification code']",
+        "sendMeVerificationCode": "XPATH:  //button[@class='ladda-button btn btn-primary hyphenButton loginButton']",
+        "loginButton": "XPATH: //button[@class='hyphenButton btn btn-primary']"
+
+ },
+
+    "mainPage": {
+        "createNewPostButton": "XPATH: //button[@class='hyphenButton mediumButton verticalCentered btn btn-primary']",
+        "anonymousOpenTypeQuestionButton":"XPATH: (//button[@class='hyphenButton poll-btn btn btn-default'])[1]",
+        "selectGroupDropDown": "XPATH: //span[@class='Select-arrow']",
+        "selectGroupDropDownValue": "XPATH: (//span[text()='ALL'])[1]",
+        "selectGroupButton": "CLASS_NAME: hyphenButton group-select-btn btn btn-default",
+        "writePostInput": "CLASS_NAME: textArea form-control",
+        "writePostPublishButton": "CLASS_NAME: hyphenButton smallButton btn btn-default",
+        "postedData": "XPATH: (//span[@class='questionText capitalizeFirst fg-darkgrayishblue75'])[1]"
+        
+    }
+
+}
